@@ -13,34 +13,28 @@
 body {
   background-color: #faf0fa;
  /* background: url(../images/IMG_4377.JPG);*/
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
   line-height: 1.5;
 }
 
 h1 {
+
+  font-family: sans-serif;
   letter-spacing: 5px;
   font-size: 35px;
   font-weight: lighter;
+  text-align: left;
+  padding: 20px;
 
 }
 
-h1,p {
-padding: 20px 20px 20px 20px;
-font-family: sans-serif;
-text-align: center;
-
-
-}
 
 p {
 
-padding-top: 20px 20px 20px 20px;
+padding: 20px;
 font-size: 16px;
 font-family: sans-serif;
 font-weight: lighter;
-text-align: center;
+text-align: right;
 
 }
 
@@ -52,8 +46,9 @@ text-align: center;
 
 img {
   border: 1px solid black;
-  display: block;
-  margin: 0 auto;
+  /*display: block;
+  margin: 0 auto;*/
+  align-content: left;
 }
 
 .resize {
@@ -62,9 +57,9 @@ img {
 
 }
 
-h3 {
+h2 {
 letter-spacing: 2px;
-text-align: center;
+text-align: right;
 font-family: 'Special Elite';
 font-style: bold;
 font-weight: lighter;
@@ -75,7 +70,7 @@ line-height: 1.8;
 ul {
   line-height: 1.8;
   font-family: sans-serif;
-  text-align: center;
+  text-align: right;
   font-weight: lighter;
 
 }
@@ -84,7 +79,7 @@ ul {
 
 footer {
   padding-top: 40px;
-  text-align: center;
+  text-align: left;
   font-weight: lighter;
   font-family: 'Nixie One';
   font-size: 14px;
