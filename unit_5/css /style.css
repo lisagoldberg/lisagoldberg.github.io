@@ -19,6 +19,15 @@ body {
   line-height: 1.5;
 }
 
+.header {
+
+background-color: #FFED74;
+border: 1px black solid;
+padding: 20px;
+display: inline-flex;
+
+}
+
 h1 {
 
   font-family: sans-serif;
@@ -27,15 +36,34 @@ h1 {
   font-weight: lighter;
   padding: 20px;
   text-align: left;
-  /*display: inline;*/
+  display: inline;
 
 }
 
-nav {
+.nav {
 
-  /*display: inline;*/
+background-color: #E8C66A;
+border: 1px black solid;
+padding: 20px;
+
+  display: inline;
   width: 64px;
 
+}
+
+.section {
+
+background-color: #FFE2B8;
+border: 1px black solid;
+padding: 20px;
+
+}
+
+.article {
+
+background-color: #E89C6C;
+border: 1px black solid;
+padding: 20px;
 }
 
 
@@ -69,7 +97,7 @@ img {
 
 }
 
-h3 {
+h2 {
 letter-spacing: 2px;
 text-align: center;
 font-family: 'Special Elite';
@@ -89,12 +117,15 @@ ul {
 
 
 
-footer {
+.footer {
   padding-top: 40px;
   text-align: center;
   font-weight: lighter;
   font-family: 'Nixie One';
   font-size: 14px;
+  background-color: #FF957E;
+  border: 1px black solid;
+  padding: 20px;
 
 }
 
