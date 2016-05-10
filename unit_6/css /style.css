@@ -40,7 +40,6 @@ body {
   padding: 20px;
   float: left;
   width: 30%;
-  margin-right: 40px;
 }
 
 h1 {
@@ -57,9 +56,10 @@ h1 {
 
 .nav {
 
-  background-color: #E8C66A;
-  border: 1px black solid;
-  padding: 20px;
+background-color: #E8C66A;
+border: 1px black solid;
+padding: 20px;
+
   display: inline;
   width: 64px;
 
