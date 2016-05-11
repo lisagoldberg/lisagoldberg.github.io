@@ -36,11 +36,12 @@ body {
 #left {
   background-color: violet;
   border: 1px black solid;
-  padding: 40px;
+  padding: 50px 20px 20px 20px;
   float: left;
   width: 30%;
-  margin: 10px;
-  display: inline;
+  /*margin: 10px;*/
+  display: inline-flex;
+  line-height: 1.8;
 }
 
 h1 {
@@ -49,29 +50,30 @@ h1 {
   letter-spacing: 5px;
   font-size: 35px;
   font-weight: lighter;
-  padding: 10px;
+  padding-top: 60px;
   text-align: center;
   display: inline;
+  line-height: 2;
 
 }
 
 img {
   border: 1px solid black;
-  display: inline;
-  margin: 0 auto;
-  padding: 10px;
-  margin: 10px;
+  display: inline-flex;
+  /*margin: 0 auto;*/
+  /*padding: 10px;*/
+ /* margin: 10px;*/
 }
 
-.resize {
-  width: 30%;
+img.resize {
+  width: 25%;
   height: auto;
 
 }
 
 .clearfix:after {
   visibility: hidden;
-  display: inline;
+  display: block;
   font-size: 0;
   content: " ";
   clear: both;
@@ -83,21 +85,20 @@ img {
 
   background-color: #E8C66A;
   border: 1px black solid;
-  display: inline;
-  width: 5%;
-  /*height: auto;*/
-  margin: 10px;
+  display: inline-flex;
+  width: 25%
+
 
 }
 
 #right {
   background-color: pink;
   border: 1px black solid;
-  padding: 10px;
-  margin: 10px;
+  padding: 400px 40px 40px 40px;
   float: right;
-  width: 30%;
+  width: 25%;
   display: inline;
+  margin:0 auto;
 }
 
 
