@@ -1,18 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Special Elite);
-@import url(https://fonts.googleapis.com/css?family=Nixie One);
-
 
 * {
-
   padding: 0;
   margin: 0;
 }
 
-
-
 body {
   background-color: #faf0fa;
- /* background: url(../images/IMG_4377.JPG);*/
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -20,68 +14,46 @@ body {
   line-height: 1.8;
 }
 
-#two_column {
- /* background-color: #FFB7CF;*/
-  /*border: 1px black solid;*/
+/*#two_column {
+  background-color: #FFB7CF;
   width: 100%;
-}
-
-.header {
-
-  /*background-color: #FFED74;*/
-  /*border: 1px black solid;*/
-  /*display: inline-flex;*/
-
-}
+}*/
 
 #left {
-  /*background-color: violet;*/
-  /*border: 1px black solid;*/
-  padding: 7%;
+  /*background-color: red;*/
+  padding: 5%;
   float: left;
-  width: 27%;
-  /*margin: 10px;*/
-  /*display: inline-flex;*/
-  line-height: 1.8;
+  width: 26.5%;
+  /*line-height: 1.8;*/
   letter-spacing: 10px;
-  /*text-align: center;*/
   display: inline;
 }
 
 h1 {
-
   font-family: sans-serif;
   letter-spacing: 10px;
-  font-size: 38px;
+  font-size: 2.4em;
   font-weight: lighter;
-  padding: .25%;
-  /*text-align: center;*/
+  padding: .20%;
   line-height: 3em;
-
 }
 
 img {
-  border: 0px;
+  border: 1% solid black;
   display: inline;
-  /*display: inline-flex;*/
-  /*margin: 0 auto;*/
-  padding: .5%;
-  margin: 2.5%;
+  /*padding: 0%;*/
+  margin: 1%;
 }
 
 img.resize {
-  width: 19%;
+  width: 20%;
   height: auto;
-
 }
 
 .featured_photos {
-
-  width: 15%;
+  width: 18%;
   height: auto;
-
 }
-
 
 
 .clearfix:after {
@@ -91,47 +63,25 @@ img.resize {
   content: " ";
   clear: both;
   height: 0;
-
 }
-
-
-
-#right {
-  background-color: pink;
-  /*border: 1px black solid;*/
-  padding: 1%;
-  float: right;
-  width: 5%;
-  display: inline;
-  /*margin:0 auto;*/
-}
-
-
 
 .section {
-
-/*background-color: #FDF8FF;*/
-/*border: 1px black solid;*/
-padding: 1%;
-max-width: 100%;
-font-style: normal;
-letter-spacing: 10px;
-text-align: center;
-
+  padding: 1%;
+  max-width: 100%;
+  font-style: normal;
+  letter-spacing: 10px;
+  text-align: center;
 }
 
 .article {
-
-
-/*border: 1px black solid;*/
-padding: 1.0%;
-letter-spacing: 6px;
+  padding: 1.0%;
+  letter-spacing: 6px;
 }
 
 #slogan {
   background-color: #D8BFD8;
   max-width: 100%;
-  font-size: 22px;
+  font-size: 1.4em;
   font-style: italic;
   text-align: center;
   letter-spacing: 9px;
@@ -139,94 +89,43 @@ letter-spacing: 6px;
 }
 
 p {
-
-max-width: 35%;
-margin: 0 auto;
-/*padding: .10%;*/
-font-size: 16px;
-font-family: sans-serif;
-font-style: normal;
-font-weight: lighter;
-text-align: center;
-letter-spacing: 3px;
-line-height: 2;
-
-
+  max-width: 35%;
+  margin: 0 auto;
+  font-size: 1.2em;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: lighter;
+  text-align: center;
+  letter-spacing: 3px;
+  line-height: 2;
 }
 
 
 h2 {
-background-color: #EED2EE;
-font-size: 18px;
-letter-spacing: 7px;
-word-spacing: 8px;
-text-align: center;
-font-family: sans-serif;
-/*font-style: italic;*/
-/*font-style: normal;*/
-font-weight: lighter;
-line-height: 1.5;
-padding: 1%;
-
+  background-color: #EED2EE;
+  font-size: 1.1em;
+  letter-spacing: 7px;
+  word-spacing: 8px;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: lighter;
+  line-height: 1.5;
+  padding: 1.5%;
 }
 
 h2 p {
-
   max-width: 80%;
 }
 
-/*ul {
-  line-height: 1.8;
-  font-family: sans-serif;
-  text-align: center;
-  display: inline;
-  text-decoration: none;
-  font-weight: lighter;
-  padding: 10px;*/
-  /*margin: 0 auto;*/
-  /*padding-left: 200px;
-  margin-right: 0px;*/
-
-}
 
 .social_links a{
-
- /* background-color: #E8C66A;*/
- /* border: 1px black solid;*/
-  /*display: inline;*/
-  width: 90%
-
-
-
+  width: 100%
 }
 
 .social_links img{
-  border: 0px;
+  border: 0%;
   text-align: center;
-  /*margin: 0 auto;*/
   margin: 10px;
   float: right;
-  
 }
 
-
-
-.footer {
-/*  padding: 1%;*/
-  text-align: center;
-  font-weight: lighter;
-  font-family: 'Nixie One';
-  font-size: 18px;
-  letter-spacing: 4px;
- /* background-color: #FF957E;*/
-  /*border: 1px black solid;*/
- 
-
-}
-
-a {
-
-/*  text-decoration: underline;*/
-  /*text-decoration-style: dashed;
-  color: black;*/
-}
