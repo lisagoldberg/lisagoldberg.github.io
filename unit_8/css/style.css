@@ -23,7 +23,7 @@ body {
 #two_column {
  /* background-color: #FFB7CF;*/
   /*border: 1px black solid;*/
-  width: 100%;
+  width: 90%;
 }
 
 .header {
@@ -39,11 +39,11 @@ body {
   /*border: 1px black solid;*/
   padding: 7%;
   float: left;
-  width: 30%;
+  width: 35%;
   /*margin: 10px;*/
   /*display: inline-flex;*/
   line-height: 1.8;
-  letter-spacing: 8px;
+  letter-spacing: 10px;
   /*text-align: center;*/
   display: inline;
 }
@@ -51,10 +51,10 @@ body {
 h1 {
 
   font-family: sans-serif;
-  letter-spacing: 8px;
+  letter-spacing: 10px;
   font-size: 38px;
   font-weight: lighter;
-  padding: .5%;
+  padding: .25%;
   /*text-align: center;*/
   line-height: 3em;
 
@@ -70,7 +70,7 @@ img {
 }
 
 img.resize {
-  width: 18%;
+  width: 19%;
   height: auto;
 
 }
@@ -92,21 +92,22 @@ img.resize {
   /*border: 1px black solid;*/
   padding: 1%;
   float: right;
-  width: 30%;
+  width: 20%;
   display: inline;
-  margin:0 auto;
+  /*margin:0 auto;*/
 }
 
 
 
 .section {
 
-background-color: #FDF8FF;
+/*background-color: #FDF8FF;*/
 /*border: 1px black solid;*/
-padding: 2%;
+padding: 1%;
 max-width: 100%;
-font-style: italic;
-letter-spacing: 8px;
+font-style: normal;
+letter-spacing: 10px;
+text-align: center;
 
 }
 
@@ -114,40 +115,40 @@ letter-spacing: 8px;
 
 
 /*border: 1px black solid;*/
-padding: 2%;
+padding: 1.5%;
 letter-spacing: 6px;
 }
 
+#slogan {
+  background-color: #D8BFD8;
+  max-width: 100%;
+  font-style: italic;
+  text-align: center;
+  letter-spacing: 9px;
+  padding: 2%;
+}
 
 p {
 
-max-width: 50%;
-margin: 0 auto;
-padding-top: 2px;
-font-size: 18px;
+max-width: 100%;
+/*margin: 0 auto;*/
+padding: 1%;
+font-size: 16px;
 font-family: sans-serif;
 font-style: normal;
 font-weight: lighter;
 text-align: center;
-letter-spacing: 3px;
+letter-spacing: 4px;
 line-height: 1.8;
 
 
 }
 
-#slogan {
-  max-width: 80%;
-  font-style: normal;
-  letter-spacing: 8px;
-}
-
-
-
 
 h2 {
 background-color: #EED2EE;
 font-size: 18px;
-letter-spacing: 6px;
+letter-spacing: 7px;
 word-spacing: 6px;
 text-align: center;
 font-family: sans-serif;
@@ -155,13 +156,13 @@ font-family: sans-serif;
 /*font-style: normal;*/
 font-weight: lighter;
 line-height: 1.5;
-padding: 3%;
+padding: 2%;
 
 }
 
 h2 p {
 
-  max-width: 50%;
+  max-width: 65%;
 }
 
 /*ul {
@@ -182,8 +183,8 @@ h2 p {
 
  /* background-color: #E8C66A;*/
  /* border: 1px black solid;*/
-  display: inline;
-  width: 85%
+  /*display: inline;*/
+  width: 80%
 
 
 
@@ -193,7 +194,9 @@ h2 p {
   border: 0px;
   text-align: center;
   /*margin: 0 auto;*/
+  margin: 10px;
   float: right;
+  
 }
 
 
