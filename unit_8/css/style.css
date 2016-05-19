@@ -7,9 +7,6 @@
 
 body {
   background-color: #faf0fa;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
   font-size: 16px;
   line-height: 1.8;
 }
@@ -23,31 +20,44 @@ body {
   /*background-color: red;*/
   padding: 5%;
   float: left;
-  width: 26.9%;
+  width: 27.5%;
   /*line-height: 1.8;*/
-  letter-spacing: 10px;
+  letter-spacing: .55em;
   display: inline;
 }
 
 h1 {
   font-family: sans-serif;
-  letter-spacing: 10px;
+  letter-spacing: .55em;
   font-size: 2.4em;
   font-weight: lighter;
   padding: .20%;
-  line-height: 3em;
+  /*line-height: 3em;*/
 }
 
 img {
+  /*background-color: red;*/
   border: 1% solid black;
   display: inline;
   /*padding: 0%;*/
-  margin: 1%;
+  margin: 1.7%;
 }
 
 img.resize {
-  width: 20%;
+  width: 17%;
   height: auto;
+  padding: 1.2%;
+}
+
+caption {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+img.resize2 {
+    width: 35%;
+    height: auto;
+    padding: .5%;
 }
 
 .featured_photos {
@@ -68,13 +78,14 @@ img.resize {
 .section {
   max-width: 100%;
   font-style: normal;
-  letter-spacing: 10px;
+  letter-spacing: .55em;
   text-align: center;
 }
 
 .article {
+  /*background-color: red;*/
   padding: 1.0%;
-  letter-spacing: 6px;
+  letter-spacing: .3em;
 }
 
 #slogan {
@@ -83,28 +94,28 @@ img.resize {
   font-size: 1.4em;
   font-style: italic;
   text-align: center;
-  letter-spacing: 9px;
+  letter-spacing: .5em;
   padding: 1.5%;
 }
 
 p {
-  max-width: 34%;
+  max-width: 40%;
   margin: 0 auto;
-  font-size: 1.2em;
+  font-size: 1.1em;
   font-family: sans-serif;
   font-style: normal;
   font-weight: lighter;
   text-align: center;
-  letter-spacing: 3px;
-  line-height: 2;
+  letter-spacing: .2em;
+  line-height: 1.8em;
 }
 
 
 h2 {
   background-color: #EED2EE;
   font-size: 1.2em;
-  letter-spacing: 6px;
-  word-spacing: 3px;
+  letter-spacing: .4em;
+  word-spacing: .2em;
   text-align: center;
   font-family: sans-serif;
   font-weight: lighter;
@@ -117,6 +128,7 @@ h2 {
   border: 0%;
   margin: .5%;
   padding-top: 1%;
+  padding-right: 1%;
   float: right;
 }
 
