@@ -55,7 +55,7 @@ caption {
 }
 
 img.resize2 {
-    width: 37%;
+    width: 35%;
     border: .1em solid black;
     height: auto;
     padding: 0%;
@@ -90,7 +90,8 @@ img.resize2 {
 }
 
 #slogan {
-  background-color: #D8BFD8;
+  /*background-color: #D8BFD8;*/
+  background-color: #EED2EE;
   max-width: 100%;
   font-size: 1.4em;
   font-style: italic;
@@ -113,21 +114,22 @@ p {
 
 
 h2 {
-  background-color: #EED2EE;
+  background-color: #D8BFD8;
+  /*background-color: #EED2EE;*/
   font-size: 1.2em;
-  letter-spacing: .4em;
+  letter-spacing: .3em;
   word-spacing: .2em;
   text-align: center;
   font-family: sans-serif;
   font-weight: lighter;
   line-height: 1.5;
-  padding: 4%;
+  padding: 3%;
 }
 
 .social_links img{
   /*background-color: red;*/
   border: 0%;
-  margin: .5%;
+  margin: .2%;
   padding: .5%;
   float: left;
 }
