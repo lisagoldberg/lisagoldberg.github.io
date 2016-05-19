@@ -18,9 +18,9 @@ body {
 
 #left {
   /*background-color: red;*/
-  padding: 5%;
+  padding: 4%;
   float: left;
-  width: 27.5%;
+  width: 27%;
   /*line-height: 1.8;*/
   letter-spacing: .55em;
   display: inline;
@@ -44,9 +44,9 @@ img {
 }
 
 img.resize {
-  width: 17%;
+  width: 16%;
   height: auto;
-  padding: 1.2%;
+  padding-bottom: 3%;
 }
 
 caption {
@@ -55,9 +55,10 @@ caption {
 }
 
 img.resize2 {
-    width: 35%;
+    width: 37%;
+    border: .1em solid black;
     height: auto;
-    padding: .5%;
+    padding: 0%;
 }
 
 .featured_photos {
@@ -101,7 +102,7 @@ img.resize2 {
 p {
   max-width: 40%;
   margin: 0 auto;
-  font-size: 1.1em;
+  font-size: 1.2em;
   font-family: sans-serif;
   font-style: normal;
   font-weight: lighter;
@@ -120,15 +121,14 @@ h2 {
   font-family: sans-serif;
   font-weight: lighter;
   line-height: 1.5;
-  padding: 3%;
+  padding: 4%;
 }
 
 .social_links img{
   /*background-color: red;*/
   border: 0%;
   margin: .5%;
-  padding-top: 1%;
-  padding-right: 1%;
-  float: right;
+  padding: .5%;
+  float: left;
 }
 
