@@ -11,10 +11,6 @@ body {
   line-height: 1.8;
 }
 
-/*#two_column {
-  background-color: #FFB7CF;
-  width: 100%;
-}*/
 
 #left {
   /*background-color: red;*/
@@ -44,9 +40,10 @@ img {
 }
 
 img.resize {
-  width: 16%;
+  width: 14%;
   height: auto;
   padding-bottom: 3%;
+  padding-top: 1%;
 }
 
 caption {
@@ -55,7 +52,7 @@ caption {
 }
 
 img.resize2 {
-    width: 35%;
+    width: 33%;
     border: .1em solid black;
     height: auto;
     padding: 0%;
@@ -134,3 +131,38 @@ h2 {
   float: left;
 }
 
+@media screen and (max-width: 1334px) {
+
+  p {
+
+    max-width: 80%;
+
+  }
+
+}
+
+@media screen and (max-width: 1087px) {
+
+  h2, p {
+
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 1043px) {
+
+  h1 {
+    font-size: 1.4em;
+  }
+
+  h2 {
+
+    font-size: .3em;
+    letter-spacing: normal;
+    word-spacing: normal;
+    padding: 2%;
+   
+  }
+
+
+}
