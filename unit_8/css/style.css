@@ -152,17 +152,37 @@ h2 {
 @media screen and (max-width: 1043px) {
 
   h1 {
-    font-size: 1.4em;
+    font-size: 1.8em;
   }
 
   h2 {
 
-    font-size: .3em;
-    letter-spacing: normal;
-    word-spacing: normal;
+    font-size: 1em;
+    letter-spacing: .1em;
+    word-spacing: .2em;
     padding: 2%;
    
   }
 
+}
+
+@media screen and (max-width: 840px) {
+
+h1  {
+
+  font-size: 1.3em;
+}
+
+
+  #slogan {
+    font-size: 1em;
+    max-width: 50%;
+
+  }
+
+  .social_links img {
+
+    float: none;
+  }
 
 }
