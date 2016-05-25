@@ -16,15 +16,15 @@ body {
   /*background-color: red;*/
   padding: 4%;
   float: left;
-  width: 27%;
+  width: 20%;
   /*line-height: 1.8;*/
-  letter-spacing: .55em;
+  letter-spacing: .50em;
   display: inline;
 }
 
 h1 {
   font-family: sans-serif;
-  letter-spacing: .55em;
+  letter-spacing: .50em;
   font-size: 2.4em;
   font-weight: lighter;
   padding: .20%;
@@ -33,33 +33,35 @@ h1 {
 
 img {
   /*background-color: red;*/
-  border: 1% solid black;
+  /*border: 1px solid black;*/
   display: inline;
   /*padding: 0%;*/
   margin: 1.7%;
 }
 
 img.resize {
-  width: 14%;
+  width: 15%;
   height: auto;
-  padding-bottom: 3%;
+  padding-bottom: 1%;
   padding-top: 1%;
 }
 
-caption {
+
+
+figcaption {
   font-family: sans-serif;
   text-align: center;
 }
 
 img.resize2 {
-    width: 33%;
+    width: 28%;
     border: .1em solid black;
     height: auto;
-    padding: 0%;
+    padding: 1%;
 }
 
 .featured_photos {
-  width: 18%;
+  width: 12%;
   height: auto;
 }
 
@@ -113,13 +115,13 @@ p {
 h2 {
   background-color: #D8BFD8;
   /*background-color: #EED2EE;*/
-  font-size: 1.2em;
+  font-size: 1.3em;
   letter-spacing: .3em;
   word-spacing: .2em;
   text-align: center;
   font-family: sans-serif;
   font-weight: lighter;
-  line-height: 1.5;
+  line-height: 1.6;
   padding: 3%;
 }
 
@@ -127,8 +129,8 @@ h2 {
   /*background-color: red;*/
   border: 0%;
   margin: .2%;
-  padding: .5%;
-  float: left;
+  padding: .6%;
+  float: none;
 }
 
 @media screen and (max-width: 1334px) {
