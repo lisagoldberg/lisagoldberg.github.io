@@ -18,13 +18,13 @@ body {
   float: left;
   width: 20%;
   /*line-height: 1.8;*/
-  letter-spacing: .50em;
+  letter-spacing: .45em;
   display: inline;
 }
 
 h1 {
   font-family: sans-serif;
-  letter-spacing: .50em;
+  letter-spacing: .45em;
   font-size: 2.4em;
   font-weight: lighter;
   padding: .20%;
@@ -36,7 +36,8 @@ img {
   /*border: 1px solid black;*/
   display: inline;
   /*padding: 0%;*/
-  margin: 1.7%;
+  margin: 1.8%;
+  padding: 1%;
 }
 
 img.resize {
@@ -55,9 +56,10 @@ figcaption {
 
 img.resize2 {
     width: 28%;
-    border: .1em solid black;
+    border: .1em dotted black;
     height: auto;
     padding: 1%;
+    margin: 1%;
 }
 
 .featured_photos {
