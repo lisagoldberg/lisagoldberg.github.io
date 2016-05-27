@@ -49,10 +49,10 @@ img.resize {
 
 
 
-figcaption {
+/*figcaption {
   font-family: sans-serif;
   text-align: center;
-}
+}*/
 
 img.resize2 {
     width: 28%;
@@ -77,14 +77,14 @@ img.resize2 {
   height: 0;
 }
 
-.section {
+section {
   max-width: 100%;
   font-style: normal;
   letter-spacing: .55em;
   text-align: center;
 }
 
-.article {
+article {
   /*background-color: red;*/
   padding: 1.0%;
   letter-spacing: .3em;
@@ -128,11 +128,14 @@ h2 {
 }
 
 .social_links img{
-  /*background-color: red;*/
+  background-color: red;
   border: 0%;
-  margin: .2%;
-  padding: .6%;
+  padding: .4%;
+  display: inline-flex;
   float: none;
+  vertical-align: middle;
+  margin-left: .3%;
+
 }
 
 @media screen and (max-width: 1334px) {
